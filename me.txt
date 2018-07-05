@@ -1,0 +1,6 @@
+HTML 4
+CSS 4
+JS 3
+
+Roligt, alltid gillat front-end och jag ser framemot att lära mig flera olika ramverk och knyta ihop det med back-end.
+
