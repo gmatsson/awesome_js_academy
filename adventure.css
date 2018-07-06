@@ -1,19 +1,62 @@
 img {
-    width: 600px;
+    width: 20vw;
     position: relative;
-    align-self: center;
+    margin: auto;
+    padding: 15%;
+    filter: grayscale(80%);
+    border-radius: 8vmax;
 }
 h1 {
-    font-size: 100px;
-    font-family: 'Algerian';
+    font-size: 5vw;
+    font-family: "Matura MT Script Capitals";
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 header {
-    height: 300px;
-    width: 100%;
-    text-align: center;
+    height: 200px;
+    width: 70%;
+    margin: auto;
 
 }
-div.image {
-    width: 100%;
-    align-content: center;
+.image {
+    flex: 1;
+    width: 500px;
+      
+}
+.textbox {
+    flex: 0 0 45%;
+    text-align: left;
+    width: 500px;
+    
+}
+ul{
+    
+    display: block;
+    margin: auto;
+    list-style-type: none;
+}
+p {
+    font-family: "Book Antiqua";
+    font-size: 2vw;
+}
+a:link, a:visited{
+    font-size: 1vw;
+    font-family: "Book Antiqua";
+    color: black;
+    text-decoration: none;
+}
+#background {
+    display: flex;
+    background: url("img/background.jpg");
+    background-size: 1200px;
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 1200px;
+    margin-left: 10%;
+    filter: grayscale(80%);
+
+}
+body {
+    background-color: black;
 }
